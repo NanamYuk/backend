@@ -1,0 +1,36 @@
+// Menampilkan semua tumbuhan
+GET http://localhost:8080/plant
+
+###
+// deploy gcp menampilkan seluruh tumbuhan
+GET https://backend-dot-capstone-c22-ps316-351301.as.r.appspot.com/plant
+
+
+
+###
+// Menampilkan tumbuhan  berdasarkan ID
+GET http://localhost:8080/plant/0d2b7235-e681-11ec-a03e-04d4c47e887b
+
+
+###
+// Menampilkan tumbuhan yang dipilih user
+GET http://localhost:8080/userplant
+
+
+###
+// Menambahkan tanaman
+POST http://localhost:8080/userplant/a1b639b3-e67c-11ec-a03e-04d4c47e887b
+Content-Type: application/json
+
+{
+    "namaPenanda": "ini kangkung",
+    "userId": "Uodp659PgozGt4BbwwVCopPkssw6U9xo"
+}
+
+###
+// Menampilkan tanaman yang ada ditabel userplant (termasuk nama penanda)
+GET http://localhost:8080/userplant/d35de08a-f7a7-4602-93ac-bd9b7a7d1a8e/a1b639b3-e67c-11ec-a03e-04d4c47e887b
+
+###
+// menghapus tanaman yang ada ditabel userplant
+DELETE http://localhost:8080/deleteUserPlant/ebbdbce2-8bcf-4131-b4b0-24b2b602e9f4
