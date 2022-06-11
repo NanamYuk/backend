@@ -39,7 +39,7 @@ We are creating a backend application as intermediate between Machine Learning a
 
 # How To ?
 
-Prepare your code
+Prepare your code in local device
 
 1. Prepare your GCP project
 2. Create your Cloud SQL and create database
@@ -47,6 +47,13 @@ Prepare your code
 4. Open terminal and make sure you're in backend-nanamyuk directory
 5. Replace line 10-13 in "/routes/plant.js" to your Cloud SQL data
 6. Run "npm run start" in your terminal (make sure nodemon is installed if you're running on local device)
-7. Try open your browser and put the same link and port with your localhost
+7. Try open your browser and put the same link and port with your localhost (Ex: http://localhost:8080)
 8. If you're trying to use HTTP Request on you endpoint link please look at [this](https://github.com/NanamYuk/backend#api-endpoint)
 
+
+Deploy your code in Google App Engine
+1. Prepare your GCP project
+2. Open App Engine and if you don't know how to use it please follow this [link](https://cloud.google.com/appengine/docs/standard/nodejs/create-app)
+3. After App Engine installed upload all the code to Cloud Shell and change "backend" to "default" in "app.yaml" file if this is your first time using App Engine
+4. Replace back "default" to "backend" and re-deploy your code
+5. Now you have link endpoint globally in the internet and everyone can use it :)
