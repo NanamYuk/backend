@@ -1,6 +1,14 @@
-# NanamYuk-CloudComputing
+# NanamYuk-Cloud Computing
 Hello, this is backend NanamYuk application made by Capstone Team C22-PS316
 if you want to know our team member please check this [link](https://github.com/NanamYuk#team-member)
+
+# Table of Contents
+- [Introduction](https://github.com/NanamYuk/backend#cloud-computing-team)
+- [CC Team](https://github.com/NanamYuk/backend#cloud-computing-team)
+- [Task](https://github.com/NanamYuk/backend#what-we-do)
+- [Repositories](https://github.com/NanamYuk/backend#repositories)
+- [Endpoints](https://github.com/NanamYuk/backend#endpoint)
+- [Tutorial](https://github.com/NanamYuk/backend#how-to-)
 
 # Cloud Computing Team
 
