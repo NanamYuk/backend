@@ -13,7 +13,7 @@ if you want to know our team member please check this [link](https://github.com/
 - [Introduction](https://github.com/NanamYuk/backend#cloud-computing-team)
 - [CC Team](https://github.com/NanamYuk/backend#cloud-computing-team)
 - [What We Do?](https://github.com/NanamYuk/backend#what-we-do)
-- [What we Use?](https://github.com/NanamYuk/backend#what-services-that-we-use-in-gcp)
+- [What We Use?](https://github.com/NanamYuk/backend#what-services-that-we-use-in-gcp)
 - [Repositories](https://github.com/NanamYuk/backend#repositories)
 - [Endpoints](https://github.com/NanamYuk/backend#endpoint)
 - [Tutorial](https://github.com/NanamYuk/backend#how-to-)
