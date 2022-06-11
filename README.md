@@ -16,6 +16,7 @@ if you want to know our team member please check this [link](https://github.com/
 - [Repositories](https://github.com/NanamYuk/backend#repositories)
 - [Endpoints](https://github.com/NanamYuk/backend#endpoint)
 - [Tutorial](https://github.com/NanamYuk/backend#how-to-)
+- [Cloud Architecture](https://github.com/NanamYuk/backend#cloud-architecture)
 
 # Cloud Computing Team
 
@@ -72,3 +73,9 @@ Deploy your code in Google App Engine
 3. After App Engine installed upload all the code to Cloud Shell and change "backend" to "default" in "app.yaml" file if this is your first time using App Engine
 4. Replace back "default" to "backend" and re-deploy your code
 5. Now you have link endpoint globally in the internet and everyone can use it :)
+
+
+# Cloud Architecture
+
+![Cloud Architecture](https://user-images.githubusercontent.com/63545373/173198962-3a1d5add-fffa-410a-b645-b550c38e7d66.jpg)
+
