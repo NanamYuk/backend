@@ -12,7 +12,8 @@ if you want to know our team member please check this [link](https://github.com/
 # Table of Contents
 - [Introduction](https://github.com/NanamYuk/backend#cloud-computing-team)
 - [CC Team](https://github.com/NanamYuk/backend#cloud-computing-team)
-- [Task](https://github.com/NanamYuk/backend#what-we-do)
+- [What We Do?](https://github.com/NanamYuk/backend#what-we-do)
+- [What we Use?](https://github.com/NanamYuk/backend#what-services-that-we-use-in-gcp)
 - [Repositories](https://github.com/NanamYuk/backend#repositories)
 - [Endpoints](https://github.com/NanamYuk/backend#endpoint)
 - [Tutorial](https://github.com/NanamYuk/backend#how-to-)
@@ -26,8 +27,16 @@ if you want to know our team member please check this [link](https://github.com/
 | Refin Refiansyah Maldini | C7237F2141| [Github](https://github.com/refinmaldini) & [Linkedin](https://www.linkedin.com/in/refin-m-2a66b8105/) |
 
 # What We Do?
-We are creating a backend application as intermediate between Machine Learning and Mobile Development using NodeJS and MySQL. Finally we deploy it in Google App Engine
+We are creating a backend application as intermediate between Machine Learning and Mobile Development using NodeJS, MySQL & Flask. After that we deploy all of the code to Google Cloud Platform
 
+# What Services that we use in GCP?
+
+|   Google Cloud Services |                                Platform                                |
+| :----------------: | :----------------------------------------------------------------: |
+|   Cloud App Engine     |      NodeJS (Backend)                        |
+|  Cloud Run  |  Flask (Model)                 |
+| Cloud Storage |  Images & Dataset          |
+| Cloud SQL |  Database (MySQL)          |
 
 # Repositories
 
