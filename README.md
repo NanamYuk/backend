@@ -15,7 +15,7 @@ if you want to know our team member please check this [link](https://github.com/
 |  Name | Bangkit ID | Contacts |
 | ------------ | ------------ | ------------ |
 | Ahmad Solahudin Rifandi | C2224W2082 | [Github](https://github.com/rifandii) & [Linkedin](https://www.linkedin.com/in/ahmadsolahudinrifandi/)  |
-| Refin Refiansyah Maldini | C7237F2141| [Github](https://github.com/refinmaldini) |
+| Refin Refiansyah Maldini | C7237F2141| [Github](https://github.com/refinmaldini) & [Linkedin](https://www.linkedin.com/in/refin-m-2a66b8105/) |
 
 # What We Do?
 We are creating a backend application as intermediate between Machine Learning and Mobile Development using NodeJS and MySQL. Finally we deploy it in Google App Engine
