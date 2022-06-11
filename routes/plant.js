@@ -5,7 +5,7 @@ const {
     v4: uuidv4
   } = require('uuid');
 
-
+// SQL Connection
 const connection = mysql.createConnection({
     host: 'ip_public',
     user: 'root',
@@ -13,7 +13,7 @@ const connection = mysql.createConnection({
     password: 'pass'
 })
 
-// Mendapatkan semua tanaman dari database
+// Get all plants from database
 router.get("/plant", (req, res) => {
     const query = "SELECT * FROM tumbuhan"
     connection.query(query, (err, rows, field) => {
@@ -25,7 +25,7 @@ router.get("/plant", (req, res) => {
     })
 })
 
-// menampilkan semua tanaman yang dipilih user
+// GET all plants that user choose
 router.get("/userplant", (req, res) => {
     const query = "SELECT * FROM userplant"
     connection.query(query, (err, rows, field) => {
@@ -38,7 +38,7 @@ router.get("/userplant", (req, res) => {
 })
 
 
-// menampilkan spesifik taman yang dipilih user
+// GET specific plant that user choose
 router.get("/plant/:id", (req, res) => {
     const id = req.params.id;
 
@@ -52,7 +52,7 @@ router.get("/plant/:id", (req, res) => {
     })
 })
 
-// user menambahkan tanaman lalu masuk ke database
+// Add new plant for user
 router.post("/userplant/:id", (req, res) => {
     const id = req.params.id;
     const userId = req.body.userId;
@@ -85,7 +85,7 @@ router.post("/userplant/:id", (req, res) => {
     
 })
 
-// user menampilkan tanaman 
+// Show the plant that user add before 
 router.get("/userplant/:user_plant_id/:plant_id", (req, res) => {
     const userPlantId = req.params.user_plant_id;
     const plantId = req.params.plant_id;
@@ -115,7 +115,7 @@ router.get("/userplant/:user_plant_id/:plant_id", (req, res) => {
 
 })
 
-// 
+// remove the plant that user add before
 router.delete("/deleteUserPlant/:user_plant_id", (req, res) => {
     const id = req.params.user_plant_id;
 
