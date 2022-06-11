@@ -1,5 +1,16 @@
-# backend
-backend for application NanamYuk
+# NanamYuk-CloudComputing
+
+
+# Cloud Computing Team
+
+|  Name | Bangkit ID | Contacts |
+| ------------ | ------------ | ------------ |
+| Ahmad Solahudin Rifandi | C2224W2082 | [Github](https://github.com/rifandii) & [Linkedin](https://www.linkedin.com/in/ahmadsolahudinrifandi/)  |
+| Refin Refiansyah Maldini | C7237F2141| [Github](https://github.com/refinmaldini) |
+
+# What we do?
+We are creating a backend application as intermediate between Machine Learning and Mobile Development using NodeJS and MySQL and deploy it in Google App Engine
+
 
 # Repositories
 
