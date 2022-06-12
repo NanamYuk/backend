@@ -73,7 +73,7 @@ Prepare your code in local device
 5. Replace line 10-13 in "/routes/plant.js" to your Cloud SQL data
 6. Run "npm run start" in your terminal (make sure nodemon is installed if you're running on local device)
 7. Try open your browser and put the same link and port with your localhost (Ex: http://localhost:8080)
-8. If you're trying to use HTTP Request on you endpoint link please look at [this](https://github.com/NanamYuk/backend#api-endpoint)
+8. If you're trying to use HTTP Request on you endpoint link please look at [this](https://github.com/NanamYuk/backend#endpoint)
 
 
 Deploy your code in Google App Engine
