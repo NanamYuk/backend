@@ -7,10 +7,10 @@ const {
 
 // SQL Connection
 const connection = mysql.createConnection({
-    host: 'ip_public',
+    host: 'your_sql_ip_public',
     user: 'root',
-    database: 'database',
-    password: 'pass'
+    database: 'your_database',
+    password: 'your_password'
 })
 
 // Get all plants from database
